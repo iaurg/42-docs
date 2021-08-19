@@ -12,6 +12,8 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'iaurg', // Usually your GitHub org/user name.
   projectName: '42-docs', // Usually your repo name.
+  url: 'https://iaurg.github.io',
+  trailingSlash: true,
   themeConfig: {
     navbar: {
       title: '42 docs',
@@ -92,13 +94,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/iaurg/42-docs/edit/main/website/',
+            'https://github.com/iaurg/42-docs/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/iaurg/42-docs/edit/main/website/blog/',
+            'https://github.com/iaurg/42-docs/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
